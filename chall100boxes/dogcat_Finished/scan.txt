@@ -1,0 +1,34 @@
+# Nmap 7.93 scan initiated Mon Mar 13 19:08:21 2023 as: nmap -T5 -A -sV -oN scan.txt -vv 10.10.169.61
+Warning: 10.10.169.61 giving up on port because retransmission cap hit (2).
+Nmap scan report for 10.10.169.61
+Host is up, received syn-ack (0.14s latency).
+Scanned at 2023-03-13 19:08:28 EDT for 23s
+Not shown: 989 closed tcp ports (conn-refused)
+PORT     STATE    SERVICE       REASON      VERSION
+22/tcp   open     ssh           syn-ack     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 2431192ab1971a044e2c36ac840a7587 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCeKBugyQF6HXEU3mbcoDHQrassdoNtJToZ9jaNj4Sj9MrWISOmr0qkxNx2sHPxz89dR0ilnjCyT3YgcI5rtcwGT9RtSwlxcol5KuDveQGO8iYDgC/tjYYC9kefS1ymnbm0I4foYZh9S+erXAaXMO2Iac6nYk8jtkS2hg+vAx+7+5i4fiaLovQSYLd1R2Mu0DLnUIP7jJ1645aqYMnXxp/bi30SpJCchHeMx7zsBJpAMfpY9SYyz4jcgCGhEygvZ0jWJ+qx76/kaujl4IMZXarWAqchYufg57Hqb7KJE216q4MUUSHou1TPhJjVqk92a9rMUU2VZHJhERfMxFHVwn3H
+|   256 213d461893aaf9e7c9b54c0f160b71e1 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBouHlbsFayrqWaldHlTkZkkyVCu3jXPO1lT3oWtx/6dINbYBv0MTdTAMgXKtg6M/CVQGfjQqFS2l2wwj/4rT0s=
+|   256 c1fb7d732b574a8bdcd76f49bb3bd020 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIfp73VYZTWg6dtrDGS/d5NoJjoc4q0Fi0Gsg3Dl+M3I
+80/tcp   open     http          syn-ack     Apache httpd 2.4.38 ((Debian))
+|_http-title: dogcat
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.38 (Debian)
+722/tcp  filtered unknown       no-response
+1066/tcp filtered fpo-fns       no-response
+1097/tcp filtered sunclustermgr no-response
+3003/tcp filtered cgms          no-response
+3476/tcp filtered nppmp         no-response
+4848/tcp filtered appserv-http  no-response
+5910/tcp filtered cm            no-response
+5960/tcp filtered unknown       no-response
+9081/tcp filtered cisco-aqos    no-response
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Mar 13 19:08:51 2023 -- 1 IP address (1 host up) scanned in 30.09 seconds

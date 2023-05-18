@@ -1,0 +1,46 @@
+# writeups
+
+`/sev-home/` : basic auth get
+
+```
+25/tcp   open     smtp          Postfix smtpd
+80/tcp   open     http          Apache httpd 2.4.7 ((Ubuntu))
+25/tcp    open  smtp     syn-ack Postfix smtpd
+80/tcp    open  http     syn-ack Apache httpd 2.4.7 ((Ubuntu))
+55006/tcp open  ssl/pop3 syn-ack Dovecot pop3d
+55007/tcp open  pop3     syn-ack Dovecot pop3d
+
+```
+
+```
++ /splashAdmin.php: Retrieved x-powered-by header: PHP/5.5.9-1ubuntu4.24.
++ /splashAdmin.php: Cobalt Qube 3 admin is running. This may have multiple security problems 
+which could not be tested remotely.
+```
+
+terminal.js==content==
+```
+
+Severnaya Auxiliary Control Station
+****TOP SECRET ACCESS****
+Accessing Server Identity
+
+Server Name:....................
+GOLDENEYE
+
+//Boris, make sure you update your default password. 
+//My sources say MI6 maybe planning to infiltrate. 
+//Be on the lookout for any suspicious network traffic....
+//
+//I encoded you p@ssword below...
+//
+//&#73;&#110;&#118;&#105;&#110;&#99;&#105;&#98;&#108;&#101;&#72;&#97;&#99;&#107;&#51;&#114;
+//
+//BTW Natalya says she can break your codes
+//
+```
+I found the decoded password on cyberchef using the magic filter
+```
+From_HTML_Entity(InvincibleHack3r)
+```
+Natalya Boris
