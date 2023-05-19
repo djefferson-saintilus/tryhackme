@@ -101,8 +101,6 @@ root.txt content:*flag2*
 e8c8c6c256c35515d1d344ee0488c617
 ```
 
-END
-
 3. Post Exploitation : NO
 
 4. Report : Recommandations or best-practices
