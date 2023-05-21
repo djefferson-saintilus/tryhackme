@@ -334,3 +334,37 @@ options:
 {print $1} : print the 1st argument
 -FS : champ 
 ```
+
+
+==windows priv===
+- Powershell history
+`type %userprofile%\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt`
+
+- IIS config
+`type C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config | findstr connectionString`
+
+- Saved Windows Credentials
+```
+cmdkey /list
+runas /savecred /user:admin cmd.exe
+```
+- Scheduled Tasks !!!
+```
+schtasks /query /tn <taskName> /fo list /v
+
+Task To Run: path/taskName
+```
+To check the file permissions on the executable, we use *icacls*
+```
+NT AUTHORITY\SYSTEM:(I)(F)
+BUILTIN\Administrators:(I)(F)
+BUILTIN\Users:(I)(F)
+```
+
+
+
+
+
+
+
+
