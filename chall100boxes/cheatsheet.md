@@ -261,7 +261,8 @@ keepnote : take note proefficient
 wafw00f : check webfirewall
 nikto/dirb/gobuster : directory listing
 osintFramework : wanna know where to go in a osint check this one
-pspy64 : It allows you to see commands run by other users, cron jobs, etc. as they execute. 
+pspy64 : It allows you to see commands run by other users, cron jobs, etc. as they execute.
+scp : use in ssh to copy files
 ```
 
 ===top  linux command===
@@ -269,7 +270,7 @@ pspy64 : It allows you to see commands run by other users, cron jobs, etc. as th
 whoami, chown, cut, awk, cd, su, sudo, id, ls, cat, chmod, exit, groupadd, useradd, chgrp, tail
 usermod, chattr, mkdir, which, find, uname, gunzip, nano, ps, touch, diff, watch, file, echo, env,
 pwd, strings, getcap, setcap, route, man, sort, seq, xargs, locate, wc, tcpdump, xxd, disown, gcc or cc,
-sudo or doas, 
+sudo or doas, scp
 
 -------------best-practices----------
 tcpdump -i <interface>
