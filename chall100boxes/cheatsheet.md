@@ -295,6 +295,14 @@ sort -u : order by alphabethic
 python3 -m http.server
 ```
 
+=== scp ===
+```
+--copy file from local to remote---
+scp document.txt user@<ip>:/pathUpload
+
+--download file from remote to local--
+scp <user>@<ip>:/path/file.txt ./
+```
 ==cut cheasheet==
 ```
 cut -d ":" -f 1 file.txt
