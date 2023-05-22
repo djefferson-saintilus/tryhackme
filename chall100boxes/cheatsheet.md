@@ -263,6 +263,7 @@ nikto/dirb/gobuster : directory listing
 osintFramework : wanna know where to go in a osint check this one
 pspy64 : It allows you to see commands run by other users, cron jobs, etc. as they execute.
 scp : use in ssh to copy files
+xfreerdp/remmina : rdp session
 ```
 
 ===top  linux command===
