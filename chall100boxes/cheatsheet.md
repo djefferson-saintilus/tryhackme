@@ -310,8 +310,14 @@ cut -d ":" -f 1 file.txt
 options:
 -d : delimitor 
 -f : champ
-
 ```
+
+== list of file signature===
+- gif
+- jpg
+- png
+
+
 ===file/dir permission==
 ```
 d rwx rwx rwx 1 kal kal 0 Tue Oct 20 18:06:03 myDirectory
