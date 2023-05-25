@@ -251,7 +251,7 @@ burpsuite : web dir, bruteforce, repeat request, encode
 dirsearch, gobuster, dirbuster : web dir listing
 nikto : web dir listing, scanning and enumaration
 nmap : scanning and enumeration
-enum4linux : look for smb shares, users, groups, password and connections
+enum4linux : look for shares, users, groups, password and connections
 tshark : capture online traffic from the command-line 
 whatweb : show info web
 wireshark : read traffic
@@ -296,6 +296,23 @@ sort -u : order by alphabethic
 python3 -m http.server
 ```
 
+=== smb ===
+- smb enumeration
+```
+enum4linux -a <ip>
+
+preferred:
+-a : all, users, shares, workgroup, version os
+
+```
+- connect to smb share
+```
+smbclient //[ip]/shareName/
+
+preferred:
+-U [name] : to specify the user
+-p [port] : to specify the port
+```
 === scp ===
 ```
 --copy file from local to remote---
