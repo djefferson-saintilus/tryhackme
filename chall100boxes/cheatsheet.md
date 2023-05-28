@@ -271,7 +271,7 @@ xfreerdp/remmina : rdp session
 whoami, chown, cut, awk, cd, su, sudo, id, ls, cat, chmod, exit, groupadd, useradd, chgrp, tail
 usermod, chattr, mkdir, which, find, uname, gunzip, nano, ps, touch, diff, watch, file, echo, env,
 pwd, strings, getcap, setcap, route, man, sort, seq, xargs, locate, wc, tcpdump, xxd, disown, gcc or cc,
-sudo or doas, scp
+sudo or doas, scp, nfs
 
 -------------best-practices----------
 tcpdump -i <interface>
@@ -320,6 +320,11 @@ scp document.txt user@<ip>:/pathUpload
 
 --download file from remote to local--
 scp <user>@<ip>:/path/file.txt ./
+```
+
+== nfs ===
+```
+sudo mount -t nfs IP:share /tmp/mount/ -nolock
 ```
 ==cut cheasheet==
 ```
