@@ -323,9 +323,15 @@ scp <user>@<ip>:/path/file.txt ./
 ```
 
 == nfs ===
-```
-sudo mount -t nfs IP:share /tmp/mount/ -nolock
-```
+
+- connect to a share
+`sudo mount -t nfs IP:share /tmp/mount/ -nolock`
+
+- list all shares
+`/usr/sbin/showmount -e [IP]`
+
+- root_squash privescal
+
 ==cut cheasheet==
 ```
 cut -d ":" -f 1 file.txt
