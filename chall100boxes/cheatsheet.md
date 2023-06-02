@@ -395,7 +395,10 @@ NT AUTHORITY\SYSTEM:(I)(F)
 BUILTIN\Administrators:(I)(F)
 BUILTIN\Users:(I)(F)
 ```
+==== kerbrute & rubeus ====
+```
 
+```
 
 
 
