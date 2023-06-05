@@ -236,6 +236,9 @@ hydra -l userlogin -P password-list-adress ftp://----IP--Address -VV
 
 -- ssh bruteforce
 hydra -l userlogin -P password-list-adress ssh ----IP--Address -VV
+
+-- web bruteforce
+
 ```
 
 ===ENV==
