@@ -238,6 +238,7 @@ hydra -l userlogin -P password-list-adress ftp://----IP--Address -VV
 hydra -l userlogin -P password-list-adress ssh ----IP--Address -VV
 
 -- web bruteforce
+hydra -l <username> -P /usr/share/wordlists/<wordlist> <ip> http-post-form
 
 ```
 
