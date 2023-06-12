@@ -404,6 +404,12 @@ BUILTIN\Users:(I)(F)
 
 ```
 
+=== powersehll==
+Get-ChildItem : list
+Get-Location : current dir path
+Get-Content : show content
+Invoke-WebRequest : make a web request
+
 
 
 
