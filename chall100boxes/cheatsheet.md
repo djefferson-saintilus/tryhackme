@@ -339,6 +339,9 @@ preferred:
 -U [name] : to specify the user
 -p [port] : to specify the port
 ```
+-list smb shares
+`smbclient -L <ipaddress>`
+
 === scp ===
 ```
 --copy file from local to remote---
