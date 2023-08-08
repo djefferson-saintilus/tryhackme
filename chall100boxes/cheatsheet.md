@@ -112,10 +112,22 @@ gtfobins.github.io/
 **BASIC AUTH GET**
 
 nikto -h <ip>/url
-dirsearch -u <url
-
+dirsearch -u <url<
+dirb <url>
+gobuster dir --url <url>
+```
+===gobuster cheatsheet ===
+```
 gobuster dir --url <url> -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t 40  -x <extension>,<extension>
--k : disable certificate
+
+options:
+-- url : set url
+-w : set wordlist location
+-t : set threads number
+-x : set extension for file lookup(php,js,txt)
+-k : disable certificate check ssl/tls
+-b : exclude negative code like 403 and so on
+
 ```
 
 ===[+]tty[+]==== </br>
