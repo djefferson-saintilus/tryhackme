@@ -403,6 +403,17 @@ BUILTIN\Users:(I)(F)
 ```
 
 ```
+=== curl cheatsheet ===
+```
+curl <url>
+
+preferred options:
+-I : get headers
+-X : request an http method(get head put post options)
+--upload-file : upload a file
+-X POST -d "name=name&pass=pass" : submit a form
+-v : verbose details
+```
 
 === powersehll==
 ```
