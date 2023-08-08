@@ -124,12 +124,22 @@ options:
 -- url : set url
 -w : set wordlist location
 -t : set threads number
--x : set extension for file lookup(php,js,txt)
+-x : set extension for file lookup(php,js,txt,xml)
 -k : disable certificate check ssl/tls
 -b : exclude negative code like 403 and so on
 
 ```
 
+=== nitko cheatsheet ===
+```
+nikto -h <url>
+
+options :
+-h : url
+--nossl : no scan for ssl/tls
+-Format : export a report (htm)
+
+```
 ===[+]tty[+]==== </br>
 `python3 -c 'import pty; pty.spawn("/bin/bash");'`
 
