@@ -130,6 +130,17 @@ options:
 
 ```
 
+=== mongo db cheatsheet ===
+```
+mongo
+
+command-line:
+- show databases // show all databases
+- use <nameDatabase> // select a database
+- db.getCollectionNames(); //show all collections 
+- db.<collectionName.name>.find() //get all contents
+```
+
 === nitko cheatsheet ===
 ```
 nikto -h <url>
