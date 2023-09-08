@@ -304,6 +304,9 @@ xfreerdp/remmina : rdp session
 evil-winrm
 impacket
 tplmap : ssti vuln
+dnsrecon O dnsenum O dnsDumpster : dns enumeration, zonetransfer and interoogation
+
+
 ```
 
 ===top  linux command===
