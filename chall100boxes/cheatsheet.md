@@ -468,6 +468,16 @@ GetLocalUser : show user on local
 ```
 
 
+==ffuf==
+- bruteforce attack web with file request saved </br>
+```
+ffuf -request req.txt -request-proto http -w /wordlists.txt (-fs (size))
+```
+
+- directory enumeration
+```
+ffuf -w /wordlists.txt:FUZZ ...
+```
 
 
 
